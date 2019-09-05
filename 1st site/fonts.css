@@ -1,0 +1,64 @@
+body {
+	font-size: 10px;
+  font-family: "Arial", sans-serif;
+  color: white;
+}
+
+.nav {
+	font-size: 14px;
+}
+
+.nav2 {
+	font-size: 14px;
+}
+
+.promo h1 {
+	font-size: 3.0em;
+	color: #343C6D;
+}
+
+.promo h2 {
+	font-size: 2.8em;
+	color: #343C6D;
+}
+.promo p {
+	font-size: 1.5em;
+	color: #7C7E84;
+}
+
+.install-menu a {
+	font-size: 1.0em;
+	padding: 0;
+}
+
+.install-menu li {
+  color: #35406BFF;
+  font-size: 2.0em;
+}
+
+.steps-list span {
+	font-size: 1.5em;
+	padding: 0;
+}
+
+
+.install-menu {
+	padding-left: 0px;
+}
+
+.mail-menu li {
+	font-size: 1.5em;
+}
+
+a:active {
+    color: white; /* Цвет активных ссылок */
+ }
+
+a {
+    color: #00D4B8FF; /* Цвет ссылок */
+    padding-left: 20px;
+ }  
+
+footer {
+	font-size: 1.5em;
+}
