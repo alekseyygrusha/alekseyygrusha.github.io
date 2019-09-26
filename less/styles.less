@@ -1,0 +1,393 @@
+@header-fc: rgb(57, 62, 107);
+@container-bc: #EDF4F4FF;
+@bg-bt-test-clr: rgb(44, 211, 184);
+@margin-content: 18%;
+@width-content: 680px;
+@padding-text: 83px  0 0 0; 
+body,
+footer {
+	width: 100%;
+	height: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.main {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	width: 100%;
+	max-width: 1920px;
+	margin: auto;
+}
+
+.header {
+	width: 100%;
+	height: 50px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	box-shadow: 0.0em 0.2em 5px rgba(122,122,122,0.5);
+	z-index: 1;
+		ul {
+			display: flex;
+			list-style: none;		
+		}
+		a:hover {
+			font-size: 32px;
+			transition: .4s;
+			border: 2px solid white;
+			padding: 8px;
+			background-color: rgb(44, 211, 184);
+			border-radius: 20px;
+		}
+		.menu-login { 
+			width: 19.52%; // 19.52%
+				ul {
+					justify-content: space-between;
+					padding-left: 21.34%; //21.34%
+					padding-right: 13.84%; //13.84%
+				}
+
+		 }
+		.menu-nav {
+			width: 39.73%; // 39.73%
+			padding-right: 80px;
+
+				ul {
+					justify-content: space-between;
+					flex-wrap: wrap;
+				}
+
+		}
+		
+			
+}	
+
+#b-test:hover,
+#b-price:hover,
+.b-possibilities:hover,
+.b-test:hover { 
+	 box-shadow: 0 0 0 2px white, 0 0 0 4px rgb(57, 62, 107);
+	 border: none;
+}
+
+.container {
+	display: column;
+	
+	&-install {
+		display: flex;
+		width: 100%;
+		height: 100%;
+		min-height: 42vh;
+		background-color: #EDF4F4FF;
+		.text-box {
+			width: 100%;
+			max-width: @width-content; //40.48%-680px
+			margin-left: @margin-content; 
+			padding: @padding-text;
+
+				h1 {
+					padding-bottom: 20px;
+				}
+				.buttons {
+					margin-top: 60px;
+					a {
+						border-radius: 30px;
+						font-weight: bold;
+						text-transform: uppercase;
+						text-align: center;
+						text-decoration: none;	
+					}
+
+					.test {
+						border: none;
+						margin-right: 20px; 
+						display: inline-block;
+						background-color: @bg-bt-test-clr;
+						color: rgb(255, 255, 255);
+						padding: 15px;
+					}
+
+					.price {
+						border-style: solid;
+	  					border-width: 1px;
+	  					border-color:  rgb(57, 62, 107);
+	  					background-color: transparent;
+						color: rgb(57, 62, 107);
+  						padding: 15px 60px;
+
+					}
+				}
+		}
+	}
+	.simple-install {
+		display: flex;
+		width: 100%;
+		height: 100%;
+		min-height: 450px;
+		flex-direction: column;
+
+			.text-box {
+				width: 100%;
+				max-width: @width-content;
+				margin-left: @margin-content;
+				padding: @padding-text;
+
+					.boxs {
+						display: flex;
+						justify-content: space-between;
+						width: 100%;
+						max-width: 650px;
+						margin-top: 88px;
+			
+							.box-1,
+							.box-2 {
+								display: flex;
+								justify-content: center;
+								align-items: flex-end;
+								background-repeat: no-repeat;
+								width: 200px;
+								height: 120px;
+								padding: 16px;
+								position: relative;
+									.icon {
+										position: absolute;
+										top: 40px;
+										left: 35px;
+										width: 48px;
+									}
+
+							}
+							.box-1 {
+								background-image: url(icons-css/1.gif);
+							}
+							.box-2 {
+								background-image: url(icons-css/2.gif);
+							}
+					}
+			}
+	}
+	.code-install {
+		display: flex;
+		width: 100%;
+		min-height: 780px;
+		background-color: #EDF4F4FF;
+			.text-box {
+				padding: @padding-text; 
+				margin-left: @margin-content;
+				display: flex;
+				flex-direction: column;
+
+					.install-menu {
+						margin-top: 70px; 
+						margin-left: 15px;
+							
+
+							p {
+								margin-top: 10px;
+								margin-bottom: 50px; 
+								padding: 0;
+							}
+
+							li {
+								color: rgb(59, 66, 105);
+							}
+							
+							a:hover {
+								color: rgb(59, 66, 105);
+							}
+
+							li:hover {
+								color: rgb(44, 211, 184);
+							}
+					}
+			}
+	}
+	
+	.install-application {
+		width: 100%;
+		min-height: 880px;
+		display: flex;
+			.text-box {
+				padding: @padding-text; 
+				margin-left: @margin-content;
+				display: flex;
+				flex-direction: column;
+				max-width: 670px;
+					.install-menu {
+						margin-top: 70px; 
+						margin-left: 15px;
+							
+							p {
+								margin-top: 10px;
+								margin-bottom: 50px; 
+								padding: 0;
+							}
+
+							li {
+								color: rgb(59, 66, 105);
+							}
+
+							a:hover {
+								color: rgb(59, 66, 105);
+							}
+
+							li:hover {
+								color: rgb(44, 211, 184);
+							}
+							
+					}
+			}
+	}
+
+	.install-after {
+		width: 100%;
+		min-height: 990px;
+		display: flex;
+		background-color: #EDF4F4FF;
+			.text-box {
+				padding: @padding-text; 
+				margin-left: @margin-content;
+				display: flex;
+				flex-direction: column;
+				width: 100%;
+				max-width: 670px;
+					.steps-list {
+						display: flex;
+						flex-wrap: wrap;
+						margin-top: 35px;
+							figure {
+								display: flex;
+								align-items: center;
+								width: 100%;
+								height: 110px;
+									figcaption {
+  									color: rgb(57, 62, 107);
+  									line-height: 1;
+  									 
+								}
+
+								img {
+									width: 74px;
+									height: 74px;
+									margin-right: 20px;
+								}
+
+								
+							}
+
+					}
+			}
+
+			.buttons {
+				margin-top: 40px;
+				a {
+					margin-right: 20px; 
+					padding: 14px 25px;
+					border-radius: 30px;
+					text-align: center;
+					text-decoration: none;	
+					background-color: @bg-bt-test-clr;
+					color: rgb(255, 255, 255);
+				}
+
+				.b-test {
+					background-color: rgb(59, 66, 105);
+				}
+			}
+	}
+	.mail-forms {
+		display: flex;
+		width: 100%;
+		min-height: 470px;
+			.text-box {
+				padding: @padding-text; 
+				margin-left: @margin-content;
+				display: flex;
+				flex-direction: column;
+				width: 100%;
+					.forms {
+						display: flex;
+						margin-top: 20px;
+						flex-wrap: wrap; 
+							figure {
+								display: flex;
+								align-items: center;
+								width: 400px;
+								height: 80px;
+								img {
+									width: 40px;
+									height: 40px;
+									margin-right: 20px;
+								}
+
+								a:hover {
+									color: rgb(59, 66, 105);
+								}
+							}
+					}
+			}
+	}
+
+}
+
+.footer {
+	display: flex;
+	width: 100%;
+	min-height: 280px;
+	background-color: rgb(59, 66, 105);
+	padding-left: 5%;
+	align-items: center;
+	justify-content: space-around;
+		.right-reserved {
+			align-self: center;
+		}
+
+		.number-phones {
+			display: flex;
+			flex-direction: column;
+				span {
+					padding-top: 25px; 
+				}
+				p {
+					padding: 0;
+				}
+				img {
+					width: 30px;
+					height: 30px;
+					margin-right: 20px;
+				}
+				figure {
+					display: flex;
+					align-items: center;
+					width: 400px;
+					height: 20px;
+
+				}
+		}
+
+		.contacts {
+			a {
+				padding: 0px;
+			}
+		}
+	}
+			
+
+
+
+
+
+
+
+
+

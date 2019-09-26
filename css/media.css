@@ -1,0 +1,80 @@
+@media screen and (max-width: 899px){
+	
+	/*.container .text-box,
+	.simple-install .text-box
+	 {
+		margin-left: auto;
+		margin-right: auto;  
+
+	}*/
+
+	
+	/*.simple-install .text-box .boxs .box-1,
+	.simple-install .text-box .boxs .box-2 {
+		display: flex;
+		justify-content: flex-end;
+	}*/
+	.container-install .text-box,
+	.container .simple-install .text-box,
+	.container .code-install .text-box,
+	.container .install-application .text-box,
+	.container .install-after .text-box,
+	.container .mail-forms .text-box
+	 {
+		margin-left: auto;
+		margin-right: auto;
+		padding: 63px  20px 0px 20px;
+		
+	}
+	.text {
+			width: 90%;
+	}
+	.footer {
+		flex-direction: column-reverse;
+		text-align: center;
+		padding-left: 0;
+
+	}
+
+	.number-phones span,
+	.number-phones p,
+	.number-phones img,
+	.number-phones figure,
+	.number-phones a {
+		display: none;
+	}
+
+	.contacts {
+		text-align: center;
+	}
+
+
+}
+
+@media screen and (max-width: 655px){ 
+	
+
+	.buttons {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+
+	.buttons a {
+		margin: 10px;
+	}
+	
+	
+	/*.container-install .text-box {
+		margin-left: 10px;
+		margin-right: 10px;  
+	}*/
+
+	
+
+	
+
+	
+	
+}

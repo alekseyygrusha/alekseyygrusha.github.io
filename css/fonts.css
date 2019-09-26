@@ -1,0 +1,86 @@
+a {
+	font-family: "Ubuntu",sans-serif;
+	font-size: 18px;
+	color: rgb(13, 160, 136);
+	line-height: 1.333;
+}
+
+body,
+footer,
+header {
+	font-family: "Ubuntu";
+}
+
+h1,
+h2,
+h3,
+h4
+  {
+	color: rgb(57, 62, 107);
+	text-transform: uppercase;
+}
+h1 {
+  font-size: 36px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+p {
+  font-size: 16px;
+  color: rgb(116, 117, 123);
+  line-height: 1.5;
+  padding-top: 12px;
+}
+.header a {
+	font-size: 18px;
+}
+.container-simple_install-text h2 {
+	font-size: 30px;
+}
+
+ .install-menu a {
+	font-size: 24px;
+ }
+
+.install-menu li {
+	font-size: 24px;
+}
+
+.install-after .buttons a {
+	font-size: 16px;
+	font-family: "Ubuntu";
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.install-aplication .install-menu a,
+.install-aplication .install-menu li {
+	font-size: 24px;
+}
+
+.steps-list b {
+	font-size: 20px;
+  	font-weight: bold;
+}
+
+.mail-forms p {
+	font-size: 18px;
+  	font-family: "Ubuntu";
+ 	color: rgb(57, 62, 107);
+  	line-height: 1.333;
+}
+
+.number-phones span {
+	color: rgb(255, 255, 255);
+	font-size: 18px;
+}
+
+.number-phones a {
+	font-size: 22px;
+	color: rgb(255, 255, 255);
+}
+
+.contacts a {
+	color: rgb(255, 255, 255);
+	text-decoration: none;
+}
