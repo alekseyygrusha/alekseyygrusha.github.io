@@ -39,7 +39,7 @@ footer {
 }
 .header a:hover {
   font-size: 32px;
-  transition: .4s;
+  transition: 0.4s;
   border: 2px solid white;
   padding: 8px;
   background-color: #2cd3b8;
@@ -65,7 +65,7 @@ footer {
 #b-price:hover,
 .b-possibilities:hover,
 .b-test:hover {
-  box-shadow: 0 0 0 2px #ffffff, 0 0 0 4px #393e6b;
+  box-shadow: 0 0 0 2px white, 0 0 0 4px #393e6b;
   border: none;
 }
 .container {
